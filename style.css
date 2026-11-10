@@ -1,0 +1,156 @@
+
+        body {
+            background-color: white;
+            font-size: 16px;
+            font-family: Arial ;
+        }
+
+        .app {
+    width: 400px;
+    min-height: 700px;
+    position: relative;
+    padding: 25px;
+    margin: auto;
+    border: 2px solid #dce6f2;
+    border-radius: 30px;
+    background-color: white;
+}
+
+        .address {
+            margin-bottom: 20px;
+        }
+
+        .address p{
+            color: grey;
+            margin: 5px;
+        }
+
+        .address h1 {
+            font-size: 20px;
+        }
+
+        .search {
+            width: 95%;
+            padding: 18px;
+            background-color: #f0f6fb;
+            border: 1px solid #dce6f2;
+            border-radius: 15px;
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .deal {
+            background:   linear-gradient(135deg, #c2410c, #fb923c);
+            padding: 20px;
+            border-radius: 20px;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .deal h1 {
+            font-size: 23px;
+        }
+
+        .coupon {
+            background-color: white;
+            color: red;
+            padding: 10px;
+            border-radius: 10px;
+            width: 220px;
+        }
+
+        h2 {
+            font-size: 23px;
+        }
+
+       .categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+       .category {
+        background-color: #f6f9fc;
+        border: 2px solid #dce6f2;
+        aspect-ratio: 1 / 1;
+        border-radius: 18px;
+         width: 25%;
+         padding: 10px;
+         text-align: center;
+}
+
+        .category p {
+            font-weight: bold;
+            color: #34465e;
+        }
+
+        .emoji {
+            font-size: 28px;
+        }
+
+        .store {
+            border: 2px solid #dce6f2;
+            border-radius: 20px;
+        }
+
+        .store-image {
+            background: #fee2e2;
+            height: 110px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+        }
+
+        .store-info {
+            background-color: white;
+            padding: 15px;
+        }
+
+        .store-info h1 {
+            font-size: 23px;
+        }
+
+        .store-info p {
+            color: #6882a3;
+        }
+
+        .rating {
+            color: green;
+            font-weight: bold;
+        }
+
+        .price {
+            color: red;
+        }
+
+        .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    background-color: white;
+    border-top: 1px solid #dce6f2;
+}
+
+        .navigation p {
+            text-align: center;
+            color: #829bb9;
+        }
+
+        .home {
+    color: #dc2626 !important;
+}
+
+        .version {
+            text-align: center;
+            color: #91a8c5;
+            margin-top: 10px;
+        }
+
+    
